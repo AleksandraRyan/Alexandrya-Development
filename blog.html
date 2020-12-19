@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="utilities.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <title>Read Our Blog</title>
+  </head>
+  <body id="home">
+    <!-- Hero Section -->
+
+    <header class="hero blog">
+      <div class="navbar top" id="navbar">
+        <h1 class="logo">
+          <span class="text-primary"
+            ><i class="fas fa-code"></i> Alexandrya</span
+          >
+          Development
+        </h1>
+        <nav>
+          <ul>
+            <li><a href="index.html#home">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#cases">Cases</a></li>
+            <li><a href="index.html#blog">Blog</a></li>
+            <li><a href="index.html#team">Team</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="content">
+        <h1 class="blog">Blogging Area</h1>
+      </div>
+    </header>
+
+    <main>
+      <hr />
+      <article class="flex-columns">
+        <div class="row">
+          <div class="column">
+            <div class="column-1">
+              <img
+                src="https://images.unsplash.com/photo-1497091071254-cc9b2ba7c48a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1353&q=800"
+                alt="people"
+              />
+            </div>
+          </div>
+          <div class="column">
+            <div class="column-2">
+              <h2>Blog Post One</h2>
+              <p class="meta">
+                <i class="fas fa-user"></i> Posted by
+                <strong>Kate Elizabeth Laydon</strong> | December 17 2020
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+                ad molestiae dolorum laborum asperiores quae eos perferendis
+                quos dignissimos fugiat? Sunt voluptatum excepturi tenetur iusto
+                accusantium asperiores ratione officia quos.
+              </p>
+              <a href="post.html" class="btn">
+                <i class="fas fa-chevron-right"></i> Read More</a
+              >
+            </div>
+          </div>
+        </div>
+      </article>
+      <hr />
+
+      <article class="flex-columns flex-reverse">
+        <div class="row">
+          <div class="column">
+            <div class="column-1">
+              <img
+                src="https://images.unsplash.com/photo-1592819695396-064b9572a660?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                alt="people"
+              />
+            </div>
+          </div>
+          <div class="column">
+            <div class="column-2">
+              <h2>Blog Post Two</h2>
+              <p class="meta">
+                <i class="fas fa-user"></i> Posted by
+                <strong>Nathaniel Hunter Cassidy</strong> | October 19 2020
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+                ad molestiae dolorum laborum asperiores quae eos perferendis
+                quos dignissimos fugiat? Sunt voluptatum excepturi tenetur iusto
+                accusantium asperiores ratione officia quos.
+              </p>
+              <a href="post.html" class="btn">
+                <i class="fas fa-chevron-right"></i> Read More</a
+              >
+            </div>
+          </div>
+        </div>
+      </article>
+      <hr />
+      <article class="flex-columns">
+        <div class="row">
+          <div class="column">
+            <div class="column-1">
+              <img
+                src="https://images.unsplash.com/photo-1488722796624-0aa6f1bb6399?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                alt="people"
+              />
+            </div>
+          </div>
+          <div class="column">
+            <div class="column-2">
+              <h2>Blog Post Two</h2>
+              <p class="meta">
+                <i class="fas fa-user"></i> Posted by
+                <strong>Nathaniel Hunter Cassidy</strong> | October 19 2020
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+                ad molestiae dolorum laborum asperiores quae eos perferendis
+                quos dignissimos fugiat? Sunt voluptatum excepturi tenetur iusto
+                accusantium asperiores ratione officia quos.
+              </p>
+              <a href="post.html" class="btn">
+                <i class="fas fa-chevron-right"></i> Read More</a
+              >
+            </div>
+          </div>
+        </div>
+      </article>
+    </main>
+    <!-- Footer -->
+    <footer class="footer bg-dark">
+      <div class="social">
+        <a href="#"> <i class="fab fa-facebook fa-2x"></i></a>
+        <a href="#"> <i class="fab fa-instagram fa-2x"></i></a>
+        <a href="#"> <i class="fab fa-linkedin fa-2x"></i></a>
+        <a href="#"> <i class="fab fa-youtube fa-2x"></i> </a>
+      </div>
+      <p>Copyright &copy; 2020 Created by Alexandrya Development</p>
+    </footer>
+
+    <script>
+      const navbar = document.getElementById('navbar');
+      let scrolled = false;
+
+      window.onscroll = function () {
+        if (window.pageYOffset > 100) {
+          navbar.classList.remove('top');
+          if (!scrolled) {
+            navbar.style.transform = 'translateY(-70px)';
+          }
+          setTimeout(function () {
+            navbar.style.transform = 'translateY(0)';
+            scrolled = true;
+          }, 200);
+        } else {
+          navbar.classList.add('top');
+          scrolled = false;
+        }
+      };
+    </script>
+  </body>
+</html>
